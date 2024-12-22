@@ -2,6 +2,18 @@ import { ITable } from "@/src/app/page";
 
 const Chats: ITable[] = [
   {
+    title: "Dev Seagulls(Чайки)",
+    tg_name: "@dev_seagulls",
+    url: "https://t.me/dev_seagulls",
+    description: "Чат дагестанского IT-сообщества",
+  },
+  {
+    title: "FemSeagulls",
+    tg_name: "@fem_seagulls_chat",
+    url: "https://t.me/fem_seagulls_chat",
+    description: "чат женского дагестанского IT-сообщества",
+  },
+  {
     title: "Java/Kotlin/Scala",
     tg_name: "@dag_jvm",
     url: "https://t.me/dag_jvm",
@@ -12,12 +24,6 @@ const Chats: ITable[] = [
     tg_name: "@cg_dag",
     url: "https://t.me/cg_dag",
     description: "чат по геймдеву",
-  },
-  {
-    title: "FemSeagulls",
-    tg_name: "@fem_seagulls_chat",
-    url: "https://t.me/fem_seagulls_chat",
-    description: "чат женского дагестанского IT-сообщества",
   },
   {
     title: "Go-lang",

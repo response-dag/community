@@ -6,7 +6,7 @@ import {
 } from "@/components/ui/table";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
-import { Channels, Chats } from '../../constants';
+import { Channels, Chats, Blogs } from '../../constants';
 
 export type ITable = {
   title: string;
@@ -45,6 +45,29 @@ export default function Home() {
       <Table>
         <TableBody>
           {Channels.map((chat, idx) => (
+            <TableRow key={idx}>
+              <TableCell className="font-medium max-md:hidden">{chat.title}</TableCell>
+              <TableCell>{chat.tg_name}</TableCell>
+              <TableCell className="text-right max-md:hidden">{chat.description}</TableCell>
+              <TableCell className="text-right">
+                {chat.url ? (
+                  <Button asChild>
+                    <Link href={chat.url}>Перейти</Link>
+                  </Button>
+                ) : (
+                  ""
+                )}
+              </TableCell>
+            </TableRow>
+          ))}
+        </TableBody>
+      </Table>
+
+
+      <h3 className="mt-12">Блоги:</h3>
+      <Table>
+        <TableBody>
+          {Blogs.map((chat, idx) => (
             <TableRow key={idx}>
               <TableCell className="font-medium max-md:hidden">{chat.title}</TableCell>
               <TableCell>{chat.tg_name}</TableCell>

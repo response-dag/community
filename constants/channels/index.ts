@@ -13,12 +13,6 @@ const Channels: ITable[] =  [
     url: "https://t.me/ITsovet05",
     description: "канал совета при Минцифре Дагестана",
   },
-  {
-    title: "BountyOnCoffee",
-    tg_name: "@BountyOnCoffee",
-    url: "https://t.me/BountyOnCoffee",
-    description: "про ИБ от @r0hack",
-  },
 ];
 
 export default Channels;

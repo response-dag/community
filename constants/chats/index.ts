@@ -28,8 +28,8 @@ const Chats: ITable[] = [
   {
     title: "Go-lang",
     tg_name: "@golangdag",
-    url: "https://t.me/golangdag",
-    description: "чат Go-разработчиков",
+    url: "",
+    description: "чат Go-разработчиков(ссылку просите в чайках)",
   },
   {
     title: "frontendDag",

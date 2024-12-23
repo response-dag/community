@@ -40,7 +40,7 @@ const Chats: ITable[] = [
   {
     title: "dag_it",
     tg_name: "@dag_it",
-    url: "https://t.me/dag_it",
+    url: "https://t.me/+P0tzbluIoyolKkjn",
     description: "чат сисадминов",
   },
   {
